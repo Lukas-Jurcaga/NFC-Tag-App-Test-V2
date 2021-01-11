@@ -54,10 +54,11 @@
 
     <Button
         android:id="@+id/write_to_tag"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="getNfcInput"
         android:text="Write to tag"
-        android:enabled="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
